@@ -7,8 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: isl-ambulance-wl-app    # element, ktorý bude vložený na stránku
-                                    # pri navigácii na zoznam čakajúcich
+    - element: isl-ambulance-wl-app    # element, ktorý bude vložený na stránku pri navigácii na zoznam čakajúcich
       attributes:
       - name: api-base
         value: http://localhost:5000/api
