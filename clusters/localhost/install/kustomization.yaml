@@ -10,7 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/isl-ambulance-ufe
+- ../../../apps/isl-ambulance-webapi
 
 components:
- - ../../../components/version-developers
- 
+- ../../../components/version-developers
+- https://github.com/ivansladecka/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
