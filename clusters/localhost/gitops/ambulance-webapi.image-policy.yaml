@@ -10,4 +10,4 @@ spec:
     pattern: "main.*" # vyberie všetky verzie, ktoré začínajú na main- (napr. main-20240315.1200)
   policy:
     alphabetical:
-      order: ascý
+      order: asc
