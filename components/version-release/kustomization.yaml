@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: ivansladecka/ambulance-ufe
   newName: ivansladecka/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: ivansladecka/ambulance-webapi
+  newName: ivansladecka/ambulance-webapi
+  newTag: 1.0.3  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 replacements:
  - targets:

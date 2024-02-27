@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/isl-ambulance-ufe
+ - ../../../apps/isl-ambulance-webapi
 
 
 components:
