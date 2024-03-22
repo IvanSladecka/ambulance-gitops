@@ -12,6 +12,7 @@ resources:
 - ../../../apps/isl-ambulance-ufe
 - ../../../apps/isl-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
 - ../../../components/version-developers
