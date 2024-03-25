@@ -45,7 +45,7 @@ user_role[ "admin" ] {
 
 # this are admin users
 user_role[ "admin" ] {
-    user.email == "\<kolegov@email\>"
+    user.email == "kolegov@email"
 }
 
 # this are users with access to monitoring actions
